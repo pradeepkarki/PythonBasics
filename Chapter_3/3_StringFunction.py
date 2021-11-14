@@ -25,7 +25,7 @@ print(test.capitalize())
 print("************find()***********")
 print(test.find("sadfsadf"))
 
-# replace- replace ol with new string
+# replace- replace old with new string
 #        - replace for all occurances
 print("**************replace(old,new)************")
 print(test.replace("is","xyz"))
