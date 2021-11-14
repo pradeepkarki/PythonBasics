@@ -14,7 +14,7 @@ print(name[2])
 
 print("print with slicing")
 print(name[0:4])
-print(name[:4]) # is same as name[0:4]
+print(name[:4]) # is same as name[0:4] which means get the 4 elements strting from 0
 print(name[0:]) # is same as name[0:last_index]
 
 print("print with negative index")
