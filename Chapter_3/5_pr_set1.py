@@ -1,8 +1,8 @@
-import datetime
+
 # accpet the string from user
 
 name = raw_input("Enter the name\n")
-
+date = raw_input("Enter date\n")
 print("Good morning," + name)
 
 
@@ -14,4 +14,4 @@ You are selected!!!!
 Date : <Date>
 '''
 
-print(sample.replace("<name>",name).replace("<Date>","11/14/2021"))
+print(sample.replace("<name>",name).replace("<Date>",date))
